@@ -76,6 +76,17 @@
             <!-- end of resume-item -->
             {% endfor %}
 
+            <h2>User Guides</h2>
+
+            {% for sample in site.data.writingsamples.user_guides %}
+            <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+                <h3 class="resume-item-title" itemprop="name">{% if sample.url %}<a href="{{ sample.url }}" target="_blank" itemprop="url">{{ sample.title }}</a>{% else %}{{ sample.title }}{% endif %}</h3>
+                <h4 class="resume-item-details" itemprop="description">{{ sample.details }}</h4>
+                <p class="resume-item-copy">{{ sample.copy }}</p>
+            </div>
+            <!-- end of resume-item -->
+            {% endfor %}
+
 
         </section>
         <!-- end Experience -->
