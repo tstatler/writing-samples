@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Tim Statler - Senior Technical Writer"
+# description: "A resume template for Jekyll and GitHub Pages sites."
 
 # Build settings
 markdown: kramdown
@@ -14,7 +14,7 @@ resume_name:                    "Tim Statler"
 resume_title:                   "Senior Technical Writer"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "tim.statler@gmail.com"
+# resume_contact_email:           "tim.statler@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "555-7334"
@@ -29,23 +29,23 @@ resume_header_intro: "<p>Senior technical writer experienced creating developer 
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+# resume_looking_for_work:        "no"
 
 # Decide which sections to use
 # comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
+# resume_section_experience:      true
+# resume_section_education:       true
+resume_section_writingsamples:  true
+# resume_section_skills:          true
 # resume_section_recognition:     true
-resume_section_links:           true
+# resume_section_links:           true
 # resume_section_associations:    true
 # resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  # resume_github_url:            "https://github.com/timstatler/resume-template"
+  resume_github_url:            "https://github.com/timstatler/"
   # resume_twitter_url:           "http://twitter.com/jglovier"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
