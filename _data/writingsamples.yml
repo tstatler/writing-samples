@@ -9,7 +9,7 @@ api_examples:
     copy: "This is a companion guide to the Apcera Platform API reference that provides API call sequences (\"recipes\") for completing non-trivial API tasks. I based the recipes in part on source code for the platform's CLI tool, the initial reference API implementation, and from input from a sales engineer helping a prospective customer with a custom API implementation."
     url: "https://docs.apcera.com/api/api-tasks/"
   - title: Events System API
-    copy: "This guide explains use cases and provides working examples for an API used to monitor events in an Apcera container cluster. It includes a feature demonstration using the Apcera CLI tool, and a complete code example demonstrating how to subscribe to events using WebSockets in a web application."
+    copy: "I was the sole author on this guide that explains use cases and provides code examples for an API used to monitor events in an Apcera container cluster. It includes a feature demonstration using the Apcera CLI tool, and a complete code example demonstrating how to subscribe to events with WebSockets in a web application."
     url: "https://docs.apcera.com/api/events-system-api/"
 
 tutorials_guides:
