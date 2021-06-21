@@ -19,14 +19,3 @@ tutorials_guides:
   - title: Common Alloy Tasks
     copy: "Explains how to perform common development tasks using an MVC framework (Alloy) and the Titanium SDK to create cross-platform mobile applications."
     url: https://wiki.appcelerator.org/display/guides2/Alloy+Tasks+in+Studio
-  - title: Virtual Networks
-    copy: "Conceptual overview of virtual networks in Apcera clusters, which allow for instances on different physical hosts to communicate as if they are on the same network."
-    url:  https://docs.apcera.com/networks/concepts/
-  - title: Configuring Sticky HTTP Sessions
-    copy: "Explains how to use session cookies to route client requests to the same backend container instance, rather than using the default round-robin routing."
-    url: https://docs.apcera.com/routes/sticky-sessions/
-
-user_guides:
-  - title: Common Web Console Tasks
-    copy: "Provides instructions for using the Apcera web console to perform common cluster management tasks."
-    url: https://docs.apcera.com/quickstart/console_tasks
